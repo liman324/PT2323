@@ -9,7 +9,7 @@ class  PT2323
 {
   public:
      PT2323();
-        void setInput(int in); // входы 1...4 (in = 0...3), 6 моно входов (in = 5)
+        void setInput(int in); // входы 1...4 (in = 0...3), 6 моно входов (in = 4)
         void setMute(int fl, int fr, int ct, int sub, int sl, int sr, int mute); 
         // MUTE OFF для выходов (0,0,0,0,0,0,0); 
         // MUTE ON  для выходов (1,1,1,1,1,1,1); 
